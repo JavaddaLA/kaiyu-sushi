@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kaiyu Sushi — Pure Craft Sushi in the Heart of Van Nuys</title>
+<meta name="description" content="Kaiyu Sushi delivers meticulous, chef-driven sushi in an intimate Van Nuys setting. Perfect 5.0-star rating. Nigiri, Sashimi, Omakase, Poke Bowls & more.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════ NAV ═══════════════════════════════════════════ -->
+<nav class="nav" id="nav">
+  <div class="nav-inner container">
+    <a href="#" class="nav-brand">
+      <div class="nav-logo-mark">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+          <circle cx="14" cy="14" r="12" stroke="var(--accent)" stroke-width="2" fill="none"/>
+          <path d="M8 14c0-3.3 2.7-6 6-6s6 2.7 6 6" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"/>
+          <circle cx="14" cy="14" r="2.5" fill="var(--accent)"/>
+          <path d="M14 8v-3M14 23v-3" stroke="var(--accent)" stroke-width="1.2" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="nav-brand-text">
+        <span class="nav-brand-name">Kaiyu Sushi</span>
+        <span class="nav-brand-sub">Van Nuys, CA</span>
+      </div>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#services">Menu</a></li>
+      <li><a href="#story">Our Story</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="tel:+18189083368" class="btn btn-primary nav-cta">Order Now</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════════ HERO ═══════════════════════════════════════════ -->
+<section class="hero" id="hero">
+  <div class="hero-bg">
+    <img src="https://images.pexels.com/photos/2098085/pexels-photo-2098085.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" alt="Fresh sushi preparation" class="hero-bg-img">
+    <div class="hero-overlay"></div>
+    <div class="hero-glow"></div>
+  </div>
+  <div class="hero-content container">
+    <div class="hero-tag" id="heroTag">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2">
+        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+      </svg>
+      <span>Perfect 5.0 Stars — Van Nuys' Hidden Gem</span>
+    </div>
+    <h1 class="hero-title" id="heroTitle">Pure Craft <em>Sushi</em> in the Heart of Van Nuys</h1>
+    <p class="hero-sub" id="heroSub">Meticulous, chef-driven Japanese cuisine in an intimate neighborhood setting. Every piece tells a story of tradition, precision, and passion.</p>
+    <div class="hero-actions" id="heroActions">
+      <a href="tel:+18189083368" class="btn btn-primary btn-lg">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        Call to Order
+      </a>
+      <a href="#services" class="btn btn-ghost btn-lg">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+        Explore Menu
+      </a>
+    </div>
+    <div class="hero-metrics" id="heroMetrics">
+      <div class="hero-metric">
+        <span class="hero-metric-val">5.0</span>
+        <span class="hero-metric-label">Google Rating</span>
+      </div>
+      <div class="hero-metric-divider"></div>
+      <div class="hero-metric">
+        <span class="hero-metric-val">69</span>
+        <span class="hero-metric-label">5-Star Reviews</span>
+      </div>
+      <div class="hero-metric-divider"></div>
+      <div class="hero-metric">
+        <span class="hero-metric-val">100%</span>
+        <span class="hero-metric-label">Satisfaction</span>
+      </div>
+      <div class="hero-metric-divider"></div>
+      <div class="hero-metric">
+        <span class="hero-metric-val">Daily</span>
+        <span class="hero-metric-label">Fresh Fish Delivery</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll-cue" id="heroScroll">
+    <span>Scroll</span>
+    <div class="hero-scroll-line"></div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ TRUST STRIP ═══════════════════════════════════════════ -->
+<section class="trust-strip">
+  <div class="container">
+    <div class="trust-items">
+      <div class="trust-item reveal">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <span>Premium Grade Fish</span>
+      </div>
+      <div class="trust-item reveal">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+        <span>Authentic Japanese Techniques</span>
+      </div>
+      <div class="trust-item reveal">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        <span>Perfect 5-Star Reputation</span>
+      </div>
+      <div class="trust-item reveal">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <span>Takeout & Online Ordering</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ SERVICES ═══════════════════════════════════════════ -->
+<section class="services section" id="services">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag reveal">Our Menu</span>
+      <h2 class="section-title reveal">Crafted with Precision, <em>Served</em> with Pride</h2>
+      <p class="section-desc reveal">From pristine nigiri to creative maki rolls, every dish at Kaiyu Sushi reflects our commitment to quality ingredients and authentic Japanese craftsmanship.</p>
+    </div>
+    <div class="services-grid">
+      <!-- Card 1 -->
+      <div class="service-card reveal" data-stagger="0">
+        <div class="service-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <ellipse cx="12" cy="14" rx="10" ry="5"/>
+            <path d="M4 10c0-2 3.5-5 8-5s8 3 8 5"/>
+            <line x1="12" y1="9" x2="12" y2="14"/>
+          </svg>
+        </div>
+        <h3 class="service-title">Nigiri & Sashimi</h3>
+        <p class="service-desc">Hand-pressed nigiri and pristine sashimi slices featuring daily-fresh fish selections — from buttery salmon belly to prized bluefin tuna.</p>
+      </div>
+      <!-- Card 2 -->
+      <div class="service-card reveal" data-stagger="1">
+        <div class="service-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="12" r="9"/>
+            <path d="M8 12c0-2.2 1.8-4 4-4s4 1.8 4 4"/>
+            <circle cx="12" cy="13" r="2"/>
+          </svg>
+        </div>
+        <h3 class="service-title">Specialty Maki Rolls</h3>
+        <p class="service-desc">Creative signature rolls that balance tradition with innovation — featuring unique flavor combinations and stunning presentation you won't find elsewhere.</p>
+      </div>
+      <!-- Card 3 -->
+      <div class="service-card reveal" data-stagger="2">
+        <div class="service-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="3" y="6" width="18" height="12" rx="2"/>
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="9" y1="6" x2="9" y2="18"/>
+            <line x1="15" y1="6" x2="15" y2="18"/>
+          </svg>
+        </div>
+        <h3 class="service-title">Omakase-Style Plates</h3>
+        <p class="service-desc">Trust the chef. Our omakase-inspired selections showcase the finest seasonal offerings, curated into a multi-course journey of flavor and texture.</p>
+      </div>
+      <!-- Card 4 -->
+      <div class="service-card reveal" data-stagger="3">
+        <div class="service-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
+            <path d="M7 9c1-1 2-1 3 0M14 9c1-1 2-1 3 0"/>
+          </svg>
+        </div>
+        <h3 class="service-title">Poke Bowls</h3>
+        <p class="service-desc">Vibrant, customizable bowls layered with fresh cubed fish, seasoned rice, crisp vegetables, and house-made sauces — a perfect quick yet satisfying meal.</p>
+      </div>
+      <!-- Card 5 -->
+      <div class="service-card reveal" data-stagger="4">
+        <div class="service-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="2" y="7" width="20" height="10" rx="2"/>
+            <line x1="8" y1="7" x2="8" y2="17"/>
+            <line x1="16" y1="7" x2="16" y2="17"/>
+            <line x1="2" y1="12" x2="22" y2="12"/>
+          </svg>
+        </div>
+        <h3 class="service-title">Bento Box Combos</h3>
+        <p class="service-desc">A complete Japanese dining experience in one elegant box — perfectly portioned combinations of sushi, sides, and specialties for lunch or dinner.</p>
+      </div>
+      <!-- Card 6 -->
+      <div class="service-card reveal" data-stagger="5">
+        <div class="service-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M8 2v4M16 2v4"/>
+            <path d="M5 10h14"/>
+            <path d="M12 14v4"/>
+            <path d="M10 16h4"/>
+            <rect x="3" y="4" width="18" height="18" rx="3"/>
+          </svg>
+        </div>
+        <h3 class="service-title">Sake & Beverage Pairings</h3>
+        <p class="service-desc">Elevate your meal with our curated selection of premium sake, Japanese beer, and specialty drinks expertly chosen to complement every bite.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ STICKY STORY ═══════════════════════════════════════════ -->
+<section class="story section" id="story">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag reveal">Our Story</span>
+      <h2 class="section-title reveal">A Hidden Gem <em>Worth</em> Discovering</h2>
+    </div>
+    <div class="story-wrapper" id="storyWrapper">
+      <div class="story-left">
+        <div class="story-sticky">
+          <div class="story-step active" data-step="0">
+            <h4>The Kaiyu Philosophy</h4>
+            <p>Every piece of sushi at Kaiyu is a testament to the Japanese principle of kodawari — an uncompromising pursuit of perfection. We obsess over every detail, from fish sourcing to rice temperature.</p>
+          </div>
+          <div class="story-step" data-step="1">
+            <h4>Daily-Fresh Sourcing</h4>
+            <p>Our fish arrives fresh every morning from trusted suppliers who share our standards. We inspect every delivery personally, because quality sushi starts long before it reaches the cutting board.</p>
+          </div>
+          <div class="story-step" data-step="2">
+            <h4>Chef-Driven Craft</h4>
+            <p>Our itamae (sushi chef) brings years of traditional training and a creative spirit to every plate. Each cut is intentional, each presentation thoughtful — this is sushi as art form.</p>
+          </div>
+          <div class="story-step" data-step="3">
+            <h4>Neighborhood Heart</h4>
+            <p>Kaiyu Sushi isn't just a restaurant — it's a gathering place for our Van Nuys community. Our loyal regulars, our 5-star reputation, and our intimate setting make every visit feel like coming home.</p>
+          </div>
+        </div>
+      </div>
+      <div class="story-right">
+        <div class="story-image reveal-scale">
+          <img src="https://images.pexels.com/photos/3298180/pexels-photo-3298180.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Fresh sushi ingredients" loading="lazy">
+        </div>
+        <div class="story-image reveal-scale">
+          <img src="https://images.pexels.com/photos/8951562/pexels-photo-8951562.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Sushi chef at work" loading="lazy">
+        </div>
+        <div class="story-image reveal-scale">
+          <img src="https://images.pexels.com/photos/2323398/pexels-photo-2323398.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Beautifully plated sushi" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ PARALLAX BANNER ═══════════════════════════════════════════ -->
+<section class="parallax-banner" id="parallaxBanner">
+  <div class="parallax-img-wrap">
+    <img src="https://images.pexels.com/photos/1148086/pexels-photo-1148086.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" alt="Japanese dining experience" class="parallax-img" id="parallaxImg" loading="lazy">
+  </div>
+  <div class="parallax-overlay"></div>
+  <div class="parallax-content container">
+    <h2 class="parallax-title reveal-scale">Where Tradition Meets <em>Passion</em></h2>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ REVIEWS ═══════════════════════════════════════════ -->
+<section class="reviews section" id="reviews">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag reveal">Reviews</span>
+      <h2 class="section-title reveal">Loved by Our <em>Community</em></h2>
+      <p class="section-desc reveal">With a perfect 5.0-star Google rating across 69 reviews, our guests consistently praise the quality, freshness, and care behind every dish.</p>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card reveal" data-stagger="0">
+        <div class="review-stars">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <blockquote class="review-quote">
+          <span class="review-open-quote">"</span>
+          Absolute hidden gem! The fish is incredibly fresh and the rolls are creative without being gimmicky. This is the best sushi I've had in the Valley, hands down. We've become regulars.
+        </blockquote>
+        <div class="review-author">
+          <div class="review-avatar">M</div>
+          <div class="review-meta">
+            <strong>Michelle T.</strong>
+            <span>Local Guide · Google Review</span>
+          </div>
+        </div>
+      </div>
+      <div class="review-card reveal" data-stagger="1">
+        <div class="review-stars">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <blockquote class="review-quote">
+          <span class="review-open-quote">"</span>
+          The omakase-style plates are unreal. You can tell the chef actually cares about every single piece. The presentation is beautiful and the quality rivals places charging twice the price in DTLA.
+        </blockquote>
+        <div class="review-author">
+          <div class="review-avatar">J</div>
+          <div class="review-meta">
+            <strong>James K.</strong>
+            <span>Sherman Oaks · Google Review</span>
+          </div>
+        </div>
+      </div>
+      <div class="review-card reveal" data-stagger="2">
+        <div class="review-stars">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <blockquote class="review-quote">
+          <span class="review-open-quote">"</span>
+          We ordered takeout on a whim and were blown away. The poke bowl was perfectly seasoned, the fish was melt-in-your-mouth fresh. Now it's our go-to for date night sushi. Absolutely deserves the 5-star rating.
+        </blockquote>
+        <div class="review-author">
+          <div class="review-avatar">S</div>
+          <div class="review-meta">
+            <strong>Sarah & David L.</strong>
+            <span>Van Nuys · Google Review</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ CTA BAND ═══════════════════════════════════════════ -->
+<section class="cta-band section">
+  <div class="container">
+    <div class="cta-box reveal-scale">
+      <div class="cta-glow"></div>
+      <h2 class="cta-title">Ready to Experience <em>Kaiyu</em>?</h2>
+      <p class="cta-sub">Join the 69 five-star reviewers who've discovered Van Nuys' best-kept sushi secret. Dine in or order takeout today.</p>
+      <a href="tel:+18189083368" class="btn btn-primary btn-lg">Order Now</a>
+      <div class="cta-phone">
+        <div class="cta-phone-icon">
+          <div class="ring-pulse"></div>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--highlight)" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        </div>
+        <a href="tel:+18189083368" class="cta-phone-number">(818) 908-3368</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ CONTACT ═══════════════════════════════════════════ -->
+<section class="contact section" id="contact">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag reveal">Visit Us</span>
+      <h2 class="section-title reveal">Find <em>Kaiyu</em> Sushi</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p class="contact-intro reveal">Located on Sherman Way in the heart of Van Nuys, Kaiyu Sushi is easy to find and worth the trip. Stop by for dine-in or call ahead for takeout.</p>
+        <div class="contact-items">
+          <div class="contact-item reveal">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h4>Address</h4>
+              <p>15333 Sherman Way Unit J<br>Van Nuys, CA 91406</p>
+            </div>
+          </div>
+          <div class="contact-item reveal">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <div>
+              <h4>Phone</h4>
+              <p><a href="tel:+18189083368">(818) 908-3368</a></p>
+            </div>
+          </div>
+          <div class="contact-item reveal">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </div>
+            <div>
+              <h4>Follow Us</h4>
+              <p><a href="https://www.instagram.com/kaiyusushi_vannuys/" target="_blank" rel="noopener">@kaiyusushi_vannuys</a></p>
+            </div>
+          </div>
+          <div class="contact-item reveal">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <h4>Hours</h4>
+              <p>Mon – Sat: 11:30AM – 9:30PM<br>Sunday: 12:00PM – 9:00PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-map reveal-scale">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3299.6!2d-118.449!3d34.201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDEyJzAzLjYiTiAxMTjCsDI2JzU2LjQiVw!5e0!3m2!1sen!2sus!4v1" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Kaiyu Sushi Location"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════ FOOTER ═══════════════════════════════════════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="nav-brand">
+          <div class="nav-logo-mark">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <circle cx="14" cy="14" r="12" stroke="var(--accent)" stroke-width="2" fill="none"/>
+              <path d="M8 14c0-3.3 2.7-6 6-6s6 2.7 6 6" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"/>
+              <circle cx="14" cy="14" r="2.5" fill="var(--accent)"/>
+              <path d="M14 8v-3M14 23v-3" stroke="var(--accent)" stroke-width="1.2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="nav-brand-text">
+            <span class="nav-brand-name">Kaiyu Sushi</span>
+          </div>
+        </a>
+        <p class="footer-desc">Meticulous, chef-driven Japanese cuisine in an intimate Van Nuys neighborhood setting. Proudly serving the San Fernando Valley with a perfect 5-star reputation.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="#services">Nigiri & Sashimi</a></li>
+          <li><a href="#services">Specialty Rolls</a></li>
+          <li><a href="#services">Omakase Plates</a></li>
+          <li><a href="#services">Poke Bowls</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Visit</h4>
+        <ul>
+          <li><a href="#story">Our Story</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Location</a></li>
+          <li><a href="https://www.instagram.com/kaiyusushi_vannuys/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+18189083368">(818) 908-3368</a></li>
+          <li><a href="#contact">15333 Sherman Way</a></li>
+          <li><a href="#contact">Van Nuys, CA 91406</a></li>
+          <li><a href="#contact">Get Directions</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Kaiyu Sushi. All rights reserved.</p>
+      <p>Crafted with care for Van Nuys</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ═══════════════════════════════════════════ SCRIPTS ═══════════════════════════════════════════ -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+<script>
+(function(){
+  "use strict";
+
+  // ——— Lenis Smooth Scroll ———
+  const lenis = new Lenis({
+    duration: 1.2,
+    easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+    direction: 'vertical',
+    gestureDirection: 'vertical',
+    smooth: true,
+    smoothTouch: false
+  });
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  lenis.on('scroll', ScrollTrigger.update);
+
+  gsap.ticker.add((time) => {
+    lenis.raf(time * 1000);
+  });
+  gsap.ticker.lagSmoothing(0);
+
+  // ——— Nav Scroll ———
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    if(window.scrollY > 60){
+      nav.classList.add('is-scrolled');
+    } else {
+      nav.classList.remove('is-scrolled');
+    }
+  }, {passive: true});
+
+  // ——— Mobile Nav Toggle ———
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+  navToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+    navToggle.classList.toggle('active');
+  });
+  navLinks.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      navToggle.classList.remove('active');
+    });
+  });
+
+  // ——— Hero Load Animation ———
+  const heroTl = gsap.timeline({delay: 0.3, defaults: {duration: 0.8, ease: 'power3.out'}});
+  heroTl
+    .from(nav, {y: -30, opacity: 0})
+    .from('#heroTag', {y: 40, opacity: 0}, '-=0.55')
+    .from('#heroTitle', {y: 40, opacity: 0}, '-=0.55')
+    .from('#heroSub', {y: 40, opacity: 0}, '-=0.55')
+    .from('#heroActions', {y: 40, opacity: 0}, '-=0.55')
+    .from('#heroMetrics', {y: 40, opacity: 0}, '-=0.55')
+    .from('#heroScroll', {opacity: 0}, '-=0.3');
+
+  // ——— Reveal Animations ———
+  const revealClasses = [
+    {selector: '.reveal', props: {y: 40, opacity: 0}},
+    {selector: '.reveal-left', props: {x: -60, opacity: 0}},
+    {selector: '.reveal-right', props: {x: 60, opacity: 0}},
+    {selector: '.reveal-scale', props: {scale: 0.94, opacity: 0}}
+  ];
+
+  revealClasses.forEach(({selector, props}) => {
+    gsap.utils.toArray(selector).forEach((el) => {
+      const stagger = el.dataset.stagger ? parseFloat(el.dataset.stagger) * 0.1 : 0;
+      gsap.from(el, {
+        ...props,
+        duration: 0.6,
+        delay: stagger,
+        ease: 'power3.out',
+        scrollTrigger: {
+          trigger: el,
+          start: 'top 85%',
+          toggleActions: 'play none none none'
+        }
+      });
+    });
+  });
+
+  // ——— Sticky Story ———
+  const storyWrapper = document.getElementById('storyWrapper');
+  if(storyWrapper){
+    const steps = storyWrapper.querySelectorAll('.story-step');
+    ScrollTrigger.create({
+      trigger: storyWrapper,
+      start: 'top 20%',
+      end: 'bottom 80%',
+      onUpdate: (self) => {
+        const progress = self.progress;
+        const activeIndex = Math.min(Math.floor(progress * steps.length), steps.length - 1);
+        steps.forEach((step, i) => {
+          step.classList.toggle('active', i === activeIndex);
+        });
+      }
+    });
+  }
+
+  // ——— Parallax Banner ———
+  const parallaxImg = document.getElementById('parallaxImg');
+  if(parallaxImg){
+    gsap.to(parallaxImg, {
+      yPercent: 20,
+      ease: 'none',
+      scrollTrigger: {
+        trigger: '#parallaxBanner',
+        start: 'top bottom',
+        end: 'bottom top',
+        scrub: 1
+      }
+    });
+  }
+
+  // ——— Smooth scroll for anchor links ———
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      const target = document.querySelector(this.getAttribute('href'));
+      if(target) {
+        e.preventDefault();
+        lenis.scrollTo(target, {offset: -80});
+      }
+    });
+  });
+
+})();
+</script>
+</body>
+</html>
